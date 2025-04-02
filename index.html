@@ -21,15 +21,22 @@
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
             text-align: center;
         }
-        h1, h2 {
+        h1 {
             color: #222;
-        }
-        hr {
-            border: 1px solid #ccc;
         }
         .section {
             margin-bottom: 20px;
             text-align: left;
+        }
+        .section-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 5px;
+        }
+        .section-content {
+            margin-top: 10px;
         }
         .contact a {
             color: #0066cc;
@@ -42,14 +49,6 @@
             object-fit: cover;
             margin-bottom: 15px;
         }
-        .section-title {
-            font-size: 22px;
-            font-weight: bold;
-            margin-bottom: 5px;
-        }
-        .section-body {
-            font-size: 16px;
-        }
     </style>
 </head>
 <body>
@@ -59,46 +58,42 @@
             <h1>Raí Iannicelli Morato</h1>
         </header>
         
-        <div class="section">
+        <section class="section">
             <div class="section-title">Sobre mim</div>
-            <hr>
-            <div class="section-body">
+            <div class="section-content">
                 <ul>
                     <li>20 anos</li>
                     <li>Brasileiro</li>
-                    <li>Nascido em São Paulo, atualmente em Cornélio Procopio</li>
+                    <li>Nascido em São Paulo, atualmente em Cornélio Procópio</li>
                     <li>Graduando em Engenharia de Software (4° Período)</li>
                 </ul>
             </div>
-        </div>
-
-        <div class="section">
-            <div class="section-title">Objetivos</div>
-            <hr>
-            <div class="section-body">
-                <p>Tenho foco em Front-end e a criação de interfaces interativas e bem estruturadas. Pretendo atuar no exterior com o mercado global.</p>
-            </div>
-        </div>
+        </section>
         
-        <div class="section">
+        <section class="section">
+            <div class="section-title">Aspiração</div>
+            <div class="section-content">
+                <p>Tenho foco em Front-end e na criação de interfaces interativas e bem estruturadas. Pretendo atuar no exterior com o mercado global.</p>
+            </div>
+        </section>
+        
+        <section class="section">
             <div class="section-title">Formação Acadêmica</div>
-            <hr>
-            <div class="section-body">
+            <div class="section-content">
                 <h3>Universidade Tecnológica Federal do Paraná - UTFPR</h3>
                 <p><strong>Engenharia de Software </strong><br>
                 07/2023 – 07/2027 (Previsto)</p>
             </div>
-        </div>
+        </section>
         
-        <div class="section contact">
+        <section class="section contact">
             <div class="section-title">Contato</div>
-            <hr>
-            <div class="section-body">
+            <div class="section-content">
                 <p><strong>Email:</strong> <a href="mailto:raimorato@alunos.utfpr.edu.br">raimorato@alunos.utfpr.edu.br</a></p>
                 <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/rai-iannicelli-1ba708348" target="_blank">linkedin.com/in/rai-iannicelli-1ba708348</a></p>
                 <p><strong>GitHub:</strong> <a href="https://github.com/raiiannicelli" target="_blank">github.com/raiiannicelli</a></p>
             </div>
-        </div>
+        </section>
     </div>
 </body>
 </html>
